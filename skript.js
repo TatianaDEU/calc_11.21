@@ -1,17 +1,3 @@
-let a = +prompt('a:', '');
-let b = +prompt('b:', '');
-let method = prompt('+, -, *, /');
-
-function calc() {
-    if (method == '+') {
-        return a + b;
-    } else if (method == '-') {
-        return a - b;
-    } else if (method == '*') {
-        return a * b;
-    } else if (method == '/') {
-        return a / b;
-    }
-}
-
-alert(calc());
+let eq = document.getElementById('equally');
+let plus = document.getElementById('plus');
+let minus = document.getElementById('minus');
