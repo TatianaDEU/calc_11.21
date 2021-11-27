@@ -1,51 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
-.wrapper .content {
-  width: 324px;
-  height: 599px;
-  margin: 20px;
+.wrapper {
+  width: 364px;
+  height: 582px;
   background-color: #17171c; }
-  .wrapper .content .number {
-    color: #ffffff;
-    height: 96px;
-    left: 0px;
-    top: 0px;
-    font-weight: 300;
-    font-size: 96px;
-    line-height: 96px;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    text-align: right;
-    margin-bottom: 16px; }
-  .wrapper .content .row {
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 16px; }
-    .wrapper .content .row button {
-      width: 69px;
-      height: 72px;
-      border-radius: 24px;
+  .wrapper .content {
+    width: 324px;
+    height: 599px;
+    margin: 20px; }
+    .wrapper .content .number {
       color: #ffffff;
-      border: none;
+      height: 96px;
+      left: 0px;
+      top: 0px;
+      font-weight: 300;
+      font-size: 96px;
+      line-height: 96px;
       font-family: 'Work Sans', sans-serif;
-      font-size: 32px;
-      line-height: 40px; }
-      .wrapper .content .row button:hover {
-        background-color: #4E505F; }
-    .wrapper .content .row .big {
-      width: 153.33px;
+      font-style: normal;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      text-align: right;
+      margin-bottom: 16px; }
+    .wrapper .content .row {
       height: 72px;
-      background-color: #2E2F38; }
-    .wrapper .content .row .num {
-      background-color: #2E2F38; }
-    .wrapper .content .row .blue {
-      background-color: #4B5EFC; }
-    .wrapper .content .row .biggest {
-      width: 238.33px;
-      height: 72px;
-      background-color: #2E2F38; }
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 16px; }
+      .wrapper .content .row button {
+        width: 69px;
+        height: 72px;
+        border-radius: 24px;
+        color: #ffffff;
+        border: none;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 32px;
+        line-height: 40px; }
+        .wrapper .content .row button:hover {
+          background-color: #4E505F; }
+        .wrapper .content .row button .img {
+          margin-top: 10px; }
+      .wrapper .content .row .big {
+        width: 153.33px;
+        height: 72px;
+        background-color: #2E2F38; }
+      .wrapper .content .row .num {
+        background-color: #2E2F38; }
+      .wrapper .content .row .blue {
+        background-color: #4B5EFC; }
+      .wrapper .content .row .biggest {
+        width: 238.33px;
+        height: 72px;
+        background-color: #2E2F38; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,11 +3,14 @@
 $white: #ffffff;
 
 .wrapper {
+    width: 364px;
+    height: 582px;
+    background-color: #17171c;
     .content {
         width: 324px;
         height: 599px;
         margin: 20px;
-        background-color: #17171c;
+        
         .number {
             color: $white;
             height: 96px;
@@ -41,6 +44,10 @@ $white: #ffffff;
                 line-height: 40px;
                 &:hover {
                     background-color: #4E505F;
+                }
+                .img {
+                   margin-top: 10px;
+                    
                 }
             }
             .big {
